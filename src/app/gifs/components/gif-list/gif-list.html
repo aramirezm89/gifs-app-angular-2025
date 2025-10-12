@@ -1,0 +1,5 @@
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
+@for(gif of gifList(); track $index) {
+    <app-gif-list-item [gif]="gif"></app-gif-list-item>
+}
+</div>

@@ -1,0 +1,11 @@
+<div
+  class="bg-slate-100 overflow-y-auto w-screen h-screen antialiased text-slate-300 selection:bg-blue-600 selection:text-white"
+>
+  <div class="grid grid-cols-[auto_1fr]  sm:grid-cols-[300px_1fr]">
+    <app-sidemenu ></app-sidemenu>
+
+    <div id="content" class="w-full justify-start p-[20px_20px_80px] text-body text-slate-900">
+      <router-outlet />
+    </div>
+  </div>
+</div>
