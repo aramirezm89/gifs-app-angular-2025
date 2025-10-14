@@ -15,7 +15,6 @@ export class GifService {
   private readonly http = inject(HttpClient);
 
   constructor() {
-    this.loadTrendingGifs();
   }
   loadTrendingGifs() {
     const params = new HttpParams()
